@@ -1,9 +1,8 @@
 body {
-    width: 95%;
-    max-width: 1500px;
-    min-width: 550px;
-    margin: auto;
     background: url('images/background5.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 
     font-family: 'Fredoka';
     line-height: 2.5;
@@ -16,7 +15,7 @@ footer{
     font-family: 'Shippori Antique B1';
     padding-top: 40px;
     color: #fff;
-    margin-top: 257px;
+    margin-top: 271.5px;
 }
 
 .footer-content{
@@ -89,7 +88,12 @@ footer{
 main{
     background: white;
     padding: 35px 40px;
+    min-width: 650px;
     margin-top: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin-bottom: 70px;
     border-radius: 25px;
@@ -115,6 +119,7 @@ a:hover {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-top: 20px;
 }
 
 nav {
@@ -203,3 +208,8 @@ nav {
     transform: rotate(405deg) translate( -5px,-7px);
 }
 
+.menu {
+    width: auto;
+    min-width: 550px;
+    margin: auto;
+}
