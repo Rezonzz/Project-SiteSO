@@ -24,6 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lato:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="Windows7.css">
 </head>
 <body>
@@ -60,7 +61,29 @@
                 <p><b>Instalação</b></p>
             </div>
             <div class="Body">
-                <p>Passo 1. Faça o download da ISO do <b>Windows 7 pt-pt</b> ou uma outra versão com o seu idioma <a href="https://www.heidoc.net/php/Windows-ISO-Downloader.exe"><font color="blue">aqui</font></a></a>.</p>
+            <p>Passo 1. Faça o download do <b>HeiDoc para Instalar a ISO do Windows 7</b> (<a href="heidoc.html"><font color="blue">Como instalar o HeiDoc</font></a>) no link abaixo.</p>
+            </div>
+            <div class="button">
+                <div class="content">
+                  <i class="bx bx-cloud-download"></i>
+                  <span class="button-text">Download</span>
+                </div>
+            </div>
+            <script>
+                const button = document.querySelector(".button");
+                button.addEventListener("click", () =>{
+                  button.classList.add("active");
+                  setTimeout(()=>{
+                    button.classList.remove("active");
+                    button.querySelector("i").classList.replace("bx-cloud-download", "bx-check-circle")
+                    button.querySelector("span").innerText = "Completed";
+                    let download_href="./Windows-ISO-Downloader.exe";
+                    window.location.href=download_href;
+                  },3000);
+                });
+            </script>
+
+            <div class="Body">
                 <p>Passo 2. Com o computador ligado, <b>insira o pendrive com a ISO do Windows 7</b> no PC.</p>
                 <p>Passo 3. <b>Reinicie o PC</b> e aguarde o reconhecimento do disco </p>
                 <p>Passo 4. Quando aparecer a mensagem <b>“Press any key to boot from CD or DVD”</b>, aperte qualquer tecla.</p>
@@ -135,6 +158,7 @@
             </div>
     </main>
     <script src="mobile-navbar.js"></script>
+    <script src="download.js"></script>
     <footer>
         <div class="footer-content">
             <h3>SOFTWARE CENTER</h3>
