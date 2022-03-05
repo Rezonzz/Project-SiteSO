@@ -296,7 +296,7 @@ nav {
     transform: translate(-50%, -50%);
     height: 95px;
     width: 260px;
-    background: #7D2AE8;
+    background: #1c1b1d;
     border-radius: 55px;
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
@@ -312,10 +312,10 @@ nav {
     content: "";
     position: absolute;
     top: 0;
-    left: -100%;
+    left: -110%;
     height: 100%;
     width: 100%;
-    background: #5b13b9;
+    background: #000000;
     border-radius: 55px;
     transition: all 3s ease-in-out;
   }
