@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang='pt-pt'>
+    <div class="menu">
+        <header>
+            <nav>
+                <a class="logo" href="Inicio.html"><img src="images/Logo4.png"></a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="Inicio.html">Início</a></li>
+                    <li><a href="Windows7.html">Como Instalar o Windows 7</a></li>
+                    <li><a href="Heidoc.html">HeiDoc</a></li>
+                    <li><a href="/">MS DOS</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+    </div>
+<head>
+    <title> Como Utilizar o HeiDoc. Em Apenas 5 Passos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Heidoc.css">
+</head>
+<body>
+    <main>
+        <div class="Lato">
+            <div class="TituloPrincipal">
+            <font size="9">
+                <p><b>SoftwareCenter: Como Utilizar o HeiDoc ISO Downloader</b></p>
+            </font>
+            </div>
+            <font size="5">
+                <p>Descubra como Utilizar o HeiDoc. Em Apenas 5 Passos.</p>
+            </font>
+            <div class="Legenda">
+                <p><b>Por Bruno Pinheiro; Para O SoftwareCenter</b></p>
+            </div>
+            <div class="Legenda2">
+            <p>05/03/2022 10h49 • Atualizado há 9 dias</p>
+            </div>
+            <hr class="content__divider ">
+            <img src="images/backgroundHeiDoc.jpg" alt="HeiDoc" class="heidocback"
+            width="800"
+            height="450">
+            <div class="FirstText">
+                <p><b>O que é o HeiDoc ISO Downloader</b></p>
+                <p>Esta ferramenta permite de uma maneira fácil baixar imagens de disco (ISO) genuínas do Windows 7, Windows 8.1 e Windows 10 diretamente dos servidores da Microsoft.</p>
+            </div>
+            <div class="SubTitle2">
+                <p><b>Download: </b></p>
+            </div>
+                <div class="button">
+                    <div class="content">
+                      <i class="bx bx-cloud-download"></i>
+                      <span class="button-text">Download</span>
+                    </div>
+                <script>
+                    const button = document.querySelector(".button");
+                    button.addEventListener("click", () =>{
+                      button.classList.add("active");
+                      setTimeout(()=>{
+                        button.classList.remove("active");
+                        button.querySelector("i").classList.replace("bx-cloud-download", "bx-check-circle")
+                        button.querySelector("span").innerText = "Completed";
+                        let download_href="./Windows-ISO-Downloader.exe";
+                        window.location.href=download_href;
+                      },3000);
+                    });
+                </script>
+                </div>
+            <div class="Info">
+            <p><b>Version:</b> 8.46</p>
+            <p><b>Release Date:</b> 8 January 2021</p>
+            <p><b>Requirements:</b> Windows 7 or newer, .NET Framework 4.x, Internet Explorer 8 or newer.</p>
+            </div>
+            </div>
+        </div>
+            <div class="SubTitle">
+                <p><b>Como Utilizar o HeiDoc ISO Downloader</b></p>
+            </div>
+            <div class="Body">
+                <p>Passo 1. Faça o download do <b>HeiDoc ISO Downloader</b> que está acima.</p>
+                <p>Passo 2. Abra a Aplicação.</p>
+                <p>Passo 3. Quando a Aplicação estiver aberta basta escolher qual o produto do lado direito a versão que pretende e clicar <b>"Confimar"</b>.</p>
+                <img src="images/HeiDoc3.png" alt="Passo 3 do HeiDoc" class="centroWindows"
+                width="650"
+                height="297">
+                <p>Passo 4. E em seguida faça o download da ISO de 32 ou 64 bits (Neste caso só tinha 64 bits).</p>
+                <img src="images/HeiDoc4.png" alt="Passo 4 do HeiDoc" class="centroWindows"
+                width="650"
+                height="297">
+                <p>Passo 5. E está feito, agora basta <b>guardar a ISO no seu pendrive</b>.</p>
+                <img src="images/HeiDoc5.png" alt="Passo 5 do HeiDoc" class="centroWindows"
+                width="650"
+                height="297">
+                <div class="LastMessage">
+                <p>Depois de descarregarem, é só instalar. No caso do Windows podem criar uma PEN de instalação ou então virtualizar o sistema usando, por exemplo, o VirtualBox ou VMWare.</p>
+                </div>
+            </div>
+    </main>
+    <script src="mobile-navbar.js"></script>
+    <script src="download.js"></script>
+    <footer>
+        <div class="footer-content">
+            <h3>SOFTWARE CENTER</h3>
+            <p>Juntos Conectados!</p>
+            <ul class="socials">
+                <li><a href="https://www.instagram.com/bruno._.saraiva/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/BrunooSaraivaa"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/Rezonzz"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://steamcommunity.com/profiles/76561199057405773/"><i class="fa fa-steam"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 SoftwareCenter. designed by <span>Rezonzz</span></p>
+        </div>
+    </footer>
+</body>
+</html>

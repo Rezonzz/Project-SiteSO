@@ -12,8 +12,8 @@
                 <ul class="nav-list">
                     <li><a href="Inicio.html">Início</a></li>
                     <li><a href="Windows7.html">Como instalar Windows 7</a></li>
+                    <li><a href="Heidoc.html">HeiDoc</a></li>
                     <li><a href="/">MS DOS</a></li>
-                    <li><a href="/">Contacto</a></li>
                 </ul>
                 
             </nav>
@@ -40,7 +40,7 @@
                 <p><b>Por Bruno Pinheiro; Para O SoftwareCenter</b></p>
             </div>
             <div class="Legenda2">
-            <p>04/03/2022 10h49 • Atualizado há 2 dias</p>
+            <p>04/03/2022 17h32 • Atualizado há 2 dias</p>
             </div>
             <hr class="content__divider ">
             <img src="images/backgroundWindows.jpg" alt="Windows 7" class="windows7back"
@@ -60,29 +60,9 @@
             <div class="SubTitle">
                 <p><b>Instalação</b></p>
             </div>
-            <div class="Body">
-            <p>Passo 1. Faça o download do <b>HeiDoc para Instalar a ISO do Windows 7</b> (<a href="heidoc.html"><font color="blue">Como instalar o HeiDoc</font></a>) no link abaixo.</p>
+            <div class="Body2">
+            <p>Passo 1. Faça o download da <b>ISO do Windows 7</b> no HeiDoc. Caso não saiba como instalar ou usar esta ferramenta disponibilizamos um post sobre isso. (<a href="Heidoc.html"><font color="blue">Como utilizar o HeiDoc ISO Downloader</font></a>)</p>
             </div>
-            <div class="button">
-                <div class="content">
-                  <i class="bx bx-cloud-download"></i>
-                  <span class="button-text">Download</span>
-                </div>
-            </div>
-            <script>
-                const button = document.querySelector(".button");
-                button.addEventListener("click", () =>{
-                  button.classList.add("active");
-                  setTimeout(()=>{
-                    button.classList.remove("active");
-                    button.querySelector("i").classList.replace("bx-cloud-download", "bx-check-circle")
-                    button.querySelector("span").innerText = "Completed";
-                    let download_href="./Windows-ISO-Downloader.exe";
-                    window.location.href=download_href;
-                  },3000);
-                });
-            </script>
-
             <div class="Body">
                 <p>Passo 2. Com o computador ligado, <b>insira o pendrive com a ISO do Windows 7</b> no PC.</p>
                 <p>Passo 3. <b>Reinicie o PC</b> e aguarde o reconhecimento do disco </p>
@@ -154,7 +134,9 @@
                 width="500"
                 height="217"
                 >
+                <div class="LastMessage">
                 <p>Pronto! Você já está com o Windows 7 instalado. Agora é só ajustar algumas definições, como a resolução de vídeo, por exemplo, instalar os drivers e programas básicos, como um bom antivírus e antispyware.</p>
+                </div>
             </div>
     </main>
     <script src="mobile-navbar.js"></script>
