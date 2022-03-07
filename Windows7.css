@@ -91,8 +91,8 @@ main{
     padding: 35px 40px;
     margin-top: 20px;
     margin-bottom: 70px;
-    margin-left: 190px;
-    margin-right: 575px;
+    margin-left: 75px;
+    margin-right: 70px;
     border-radius: 25px;
 }
 
@@ -202,8 +202,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui,-apple-system, Helvetica, Arial, sans-serif;
-    background: #23232e;
-    height: 8vh;
+    background: #111111;
+    height: 10vh;
 }
 
 .nav-list {
@@ -239,7 +239,7 @@ nav {
         right: 0;
         width: 12.5vw;
         height: 92vh;
-        background: #23232e;
+        background: #111111;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
