@@ -124,6 +124,9 @@ a:hover {
 
 nav {
     display: flex;
+    position: fixed;
+    top: 0; 
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     font-family: system-ui,-apple-system, Helvetica, Arial, sans-serif;
