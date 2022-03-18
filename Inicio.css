@@ -11,11 +11,11 @@ body {
 footer{
     background: #111;
     height: auto;
-    width: 100vw;
+    width: auto;
     font-family: 'Shippori Antique B1';
     padding-top: 40px;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 272px;
 }
 
 .footer-content{
@@ -68,7 +68,7 @@ footer{
 
 .footer-bottom{
     background:#000;
-    width: 100vw;
+    width: auto;
     padding: 20px 0;
     text-align: center;
 }
@@ -86,16 +86,63 @@ footer{
 }
 
 main{
-    background: white;
     padding: 35px 40px;
     min-width: 650px;
-    margin-top: 85px;
+    margin-top: 140px;
     margin-left: 190px;
     margin-right: 190px;
+}
+
+.images_top{
+    background: white;
+    min-width: 650px;
     align-items: center;
     justify-content: center;
     text-align: center;
     border-radius: 25px;
+    padding: 35px 40px;
+}
+
+.body2{
+    background: white;
+    padding: 35px 40px;
+    border-radius: 25px;
+    margin-top: 60px;
+}
+
+.txt_post{
+    font-size: 50px;
+    text-align: center;
+}
+
+.txt2_post{
+    position: absolute;
+    top: 680px;
+    left: 440px;
+    font-size: 25px;
+}
+
+.txt3_post{
+    position: absolute;
+    top: 680px;
+    left: 1120px;
+    font-size: 25px;
+}
+
+.txt4_post{
+    position: absolute;
+    top: 1027px;
+    left: 460px;
+    font-size: 25px;
+}
+
+.image_post{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+    
 }
 
 * {
