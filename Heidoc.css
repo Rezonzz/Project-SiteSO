@@ -108,16 +108,7 @@ main{
     height: auto;
 }
 
-.windows4 {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 125px;
-    margin-right: auto; 
-    height: auto;
-}
-
-.centroWindows {
+.centroHeidoc {
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
