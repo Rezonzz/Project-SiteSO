@@ -8,6 +8,14 @@ body {
     line-height: 2.5;
 }
 
+.img-div {
+    height:100%; width:100%;
+}
+
+img { 
+    max-width:100% 
+}
+
 footer{
     background: #111;
     height: auto;
