@@ -119,21 +119,21 @@ main{
     position: absolute;
     top: 680px;
     left: 440px;
-    font-size: 25px;
+    font-size: 160%;
 }
 
 .txt3_post{
     position: absolute;
     top: 680px;
     left: 1120px;
-    font-size: 25px;
+    font-size: 160%;
 }
 
 .txt4_post{
     position: absolute;
     top: 1027px;
     left: 460px;
-    font-size: 25px;
+    font-size: 160%;
 }
 
 .image_post{
