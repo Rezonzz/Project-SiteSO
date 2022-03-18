@@ -89,9 +89,9 @@ main{
     background: white;
     min-width: 1000px;
     padding: 35px 40px;
-    margin-top: 140px;
-    margin-left: 75px;
-    margin-right: 70px;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 25px;
 }
 
@@ -99,7 +99,7 @@ main{
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 150px;
+    margin-left: 26.5%;
     margin-right: auto;
     height: auto;
 }
@@ -108,7 +108,7 @@ main{
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 125px;
+    margin-left: 25%;
     margin-right: auto; 
     height: auto;
 }
@@ -117,7 +117,7 @@ main{
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 175px;
+    margin-left: 25%;
     margin-right: auto; 
     height: auto;
 }
@@ -142,7 +142,7 @@ main{
 .windows7back {
     margin-top: 12px;
     margin-bottom: 24px;
-    margin-left: 100px;
+    margin-left: 22.5%;
     margin-right: auto; 
 }
 
