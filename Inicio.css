@@ -124,33 +124,30 @@ main{
 }
 
 .txt2_post{
-    position: absolute;
-    top: 680px;
-    left: 440px;
+    position: relative;
+    text-align: center;
     font-size: 160%;
 }
 
 .txt3_post{
-    position: absolute;
-    top: 680px;
-    left: 1120px;
+    position: relative;
+    text-align: center;
     font-size: 160%;
 }
 
 .txt4_post{
-    position: absolute;
-    top: 1027px;
-    left: 460px;
+    position: relative;
+    text-align: center;
     font-size: 160%;
 }
 
 .image_post{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 75px;
-    margin-right: 75px;
     margin-top: 50px;
-    
 }
 
 * {
