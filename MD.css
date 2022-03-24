@@ -391,12 +391,20 @@ nav {
 .tab-group {
     width: 100%;
     max-width: 40rem;
-    margin-left: 17.5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .tab {
     position: relative;
     width: 100%;
+}
+
+.lista {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
 }
 
 .tab input {

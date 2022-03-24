@@ -27,6 +27,7 @@
             </div>
             <div class="Body">
                     <h2 class="title1">Lista dos Comandos</h2>
+                    <div class="lista">
                       <div class="tab-group">
                         <div class="tab">
                           <input type="radio" class="radio" id="md" name="category"/>
@@ -62,7 +63,9 @@
                             <input type="radio" class="radio" id="del" name="category"/>
                             <label for="del">DEL</label>
                               <div class="tab-content">
-                                  <p> este é o botao del</p>
+                                  <p>Exclui um ou mais arquivos. Este comando executa as mesmas ações que o comando erase .</p>
+                                  <p>Exemplo: del SoftwareCenter</p>
+                                  <img src="images/DEL.png">
                               </div>
                           </div>
               
@@ -70,15 +73,19 @@
                             <input type="radio" class="radio" id="replace" name="category"/>
                             <label for="replace">REPLACE</label>
                               <div class="tab-content">
-                                  <p> este é o botao replace</p>
+                                  <p>Substitui os arquivos existentes em um diretório. Se usado com a opção /a , esse comando adiciona novos arquivos a um diretório em vez de substituir os arquivos existentes.</p>
+                                  <p>Exemplo: replace SoftwareCenter Exemplo (replace ficheiro 1 para o ficheiro 2).</p>
+                                  <img src="images/REPLACE.png">
                               </div>
                           </div>
               
                           <div class="tab">
                             <input type="radio" class="radio" id="MKdir" name="category"/>
-                            <label for="MKdir">MKdir</label>
+                            <label for="MKdir">MKDIR</label>
                               <div class="tab-content">
-                                  <p> este é o botao MKdir</p>
+                                  <p>Cria um diretório ou subdiretório. Extensões de comando, que são habilitadas por padrão, permitem que você use um único comando mkdir para criar diretórios intermediários em um caminho especificado.</p>
+                                  <p>Exemplo: mkdir SoftwareCenter2</p>
+                                  <img src="images/MKDIR.png">
                               </div>
                           </div>
               
@@ -86,7 +93,10 @@
                             <input type="radio" class="radio" id="move" name="category"/>
                             <label for="move">MOVE</label>
                               <div class="tab-content">
-                                  <p> este é o botao move</p>
+                                  <p>Move um ou mais arquivos de um diretório para outro.</p>
+                                  <p>Exemplo: move SoftwareCenter SoftwareCenter2</p>
+                                  <p>(move ficheiro 1 para o ficheiro 2).</p>
+                                  <img src="images/MOVE.png">
                               </div>
                           </div>
               
@@ -94,7 +104,10 @@
                             <input type="radio" class="radio" id="rename" name="category"/>
                             <label for="rename">RENAME</label>
                               <div class="tab-content">
-                                  <p> este é o botao rename</p>
+                                  <p>Renomeia arquivos ou diretórios.</p>
+                                  <p>Exemplo: rename SoftwareCenter.doc SoftwareCenter.txt</p>
+                                  <p>(rename ficheiro 1 para o ficheiro 2).</p>
+                                  <img src="images/RENAME.png">
                               </div>
                           </div>
               
@@ -102,14 +115,21 @@
                             <input type="radio" class="radio" id="copy" name="category"/>
                             <label for="copy">COPY</label>
                               <div class="tab-content">
-                                  <p> este é o botao copy</p>
+                                  <p>Copia um ou mais arquivos de um local para outro.</p>
+                                  <p>Exemplo: copy SoftwareCenter.txt SoftwareCenter</p>
+                                  <p>(copy ficheiro 1 para o ficheiro 2).</p>
+                                  <img src="images/COPY.png">
                               </div>
                           </div>
                           <div class="tab">
                             <input type="radio" class="radio" id="color" name="category"/>
                             <label for="color">COLOR</label>
                               <div class="tab-content">
-                                  <p> este é o botao color</p>
+                                  <p>Altera as cores de primeiro plano e de plano de fundo na janela prompt de comando da sessão atual. Se usado sem parâmetros, a cor restaura as cores padrão da janela do Prompt de Comando e as cores da tela de fundo.</p>
+                                  <p>Exemplo: color a</p>
+                                  <video width="320" height="240" autoplay muted>
+                                    <source src="videos/color.mp4" type="video/mp4">
+                                  </video>
                               </div>
                           </div>
                           <div class="tab">
@@ -122,6 +142,7 @@
                       </div>
                     </div>
                   </div>
+                </div>
                   <script src="listbox.js"></script>
                 <div class="LastMessage">
                 <p>Espero que vos tenha ajudado com o vosso Trabalho ou ter vos despertado a curiosidade sobre a Linha de comandos.</p>
