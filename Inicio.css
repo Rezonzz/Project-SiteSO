@@ -94,7 +94,7 @@ footer{
 main{
     padding: 35px 40px;
     min-width: 650px;
-    margin-top: 8%;
+    margin-top: 4.5%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -109,9 +109,24 @@ main{
     padding: 35px 40px;
 }
 
+.firstText{
+    width: 65rem;
+    text-align: justify;
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+    font-size: 160%;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.content__divider {
+    margin: 0 8rem 2.5rem;
+}
+
 .body2{
     background: white;
-    padding: 35px 40px;
+    padding: 65px 40px;
     border-radius: 25px;
     margin-top: 60px;
 }
@@ -134,6 +149,12 @@ main{
 .txt4_post{
     text-align: center;
     font-size: 190%;
+}
+
+.inicioback{
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
 }
 
 .image_post{

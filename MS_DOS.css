@@ -192,6 +192,7 @@ main{
 .LastMessage {
     margin-top: 60px;
     margin-bottom: 50px;
+    font-size: 120%;
 }
 
 .content__divider {
