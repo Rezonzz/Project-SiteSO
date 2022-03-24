@@ -445,7 +445,8 @@ nav {
 
 .tab-content p{
     margin: 1rem 0;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
+    line-height: 150%;
 }
 
 .tab input:checked ~ .tab-content{
