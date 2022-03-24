@@ -7,5 +7,5 @@ const button = document.querySelector(".button");
                         button.querySelector("span").innerText = "Completed";
                         let download_href="./Windows-ISO-Downloader.exe";
                         window.location.href=download_href;
-                      },3000);
+                      },2000);
                     });

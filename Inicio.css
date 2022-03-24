@@ -8,9 +8,7 @@ body {
     line-height: 2.5;
 }
 
-.img-div {
-    height:100%; width:100%;
-}
+
 
 img { 
     max-width:100% 
@@ -124,30 +122,28 @@ main{
 }
 
 .txt2_post{
-    position: relative;
     text-align: center;
-    font-size: 160%;
+    font-size: 180%;
 }
 
 .txt3_post{
-    position: relative;
     text-align: center;
-    font-size: 160%;
+    font-size: 180%;
 }
 
 .txt4_post{
-    position: relative;
     text-align: center;
-    font-size: 160%;
+    font-size: 180%;
 }
 
 .image_post{
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    margin-left: 31.5%;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 * {

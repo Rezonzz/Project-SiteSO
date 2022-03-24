@@ -18,6 +18,8 @@ footer{
     margin-top: 100px;
 }
 
+
+
 .footer-content{
     display: flex;
     align-items: center;
@@ -117,13 +119,26 @@ main{
     height: auto;
 }
 
-.centroWindows {
+.images {
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 175px;
+    margin-left: 60px;
     margin-right: auto; 
     height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.images2 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: auto; 
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Lato {
@@ -309,7 +324,7 @@ nav {
 
 .button{
     position: relative;
-    left: 45%;
+    left: 16%;
     margin-top: 75px;
     margin-bottom: -10px;
     transform: translate(-50%, -50%);
@@ -368,3 +383,61 @@ nav {
     font-size: 28px;
     margin-left: 8px;
   }
+
+.tab-group {
+    width: 100%;
+    max-width: 40rem;
+    margin-left: 27.5%;
+}
+
+.tab {
+    position: relative;
+    width: 100%;
+}
+
+.tab input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -999;
+}
+
+.tab label {
+    background: white;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 3;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    border-radius: 20px;
+    transition: all 0.55s;
+}
+
+.tab input:focus label,
+.tab label:hover {
+    cursor: pointer;
+    background: rgb(167, 167, 167);
+    letter-spacing: 2px;
+}
+
+.tab-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.35s;
+}
+
+.tab-content p{
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.tab input:checked ~ .tab-content{
+    max-height: 6.25rem;
+}
+  
+  
