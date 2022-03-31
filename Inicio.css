@@ -110,7 +110,7 @@ main{
 }
 
 .firstText{
-    width: 65rem;
+    width: 100%;
     text-align: justify;
     display: table; 
     margin: 0 auto;
