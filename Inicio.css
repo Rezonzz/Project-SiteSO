@@ -209,7 +209,7 @@ nav {
 }
 
 .mobile-menu {
-    display: none;
+    display: flex;
     cursor: pointer;
 }
 
@@ -280,3 +280,43 @@ nav {
     min-width: 550px;
     margin: auto;
 }
+
+  .button{
+    left: 40%;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 46.5%;
+    margin-bottom: -10px;
+    transform: translate(-50%, -50%);
+    height: 75px;
+    width: 150px;
+    background: #1c1b1d;
+    border-radius: 55px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    overflow: hidden;
+  }
+  
+  .button .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    transition-delay: 0.2s;
+  }
+  .button.active .content{
+    transform: translateY(60px);
+  }
+  .button .content i,
+  .button .content .button-text{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 20;
+  }
+  .button .content .button-text{
+    font-size: 28px;
+    margin-left: 8px;
+  }
